@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Education must also train one for quick, resolute and effective thinking."
-author: john
+author: MJarrett
 categories: [ Jekyll, tutorial ]
-image: assets/images/3.jpg
+image: assets/images/logo.png
 beforetoc: "Markdown editor is a very powerful thing. In this article I'm going to show you what you can actually do with it, some tricks and tips while editing your post."
 toc: true
 ---
-There are lots of powerful things you can do with the Markdown editor
+There are lots of powerful things you can do with the Markdown editor 
 
 If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
 

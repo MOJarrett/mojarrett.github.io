@@ -6,8 +6,11 @@ categories: [ Jekyll,Github,Ruby ]
 image: assets/images/css_jquery_book.jpg
 featured: true
 comments: false
+beforetoc: "The website you are currently using was built and is being hosted completely for free. It also was very easy to build by utilising and amending existing templates. In this guide I will show you how to create and customise your own."
+toc: true
 ---
-The website you are currently using was built and is being hosted completely for free. It also was very easy to build by utilising and amending existing templates. 
+
+## Setting up your Repository in Github
 
 The widely used version control tool Github offers a free hosting service when you use your github username appended with github.io - `USERNAME.github.io`. Simply 'fork' an existing repository and use that to build your website from. I forked and amended <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll" target="_blank">this repository</a>. 
 
@@ -32,6 +35,8 @@ Here are the steps to follow if you want to do the same:
     <p></p>
       <li>Now you can see the files from your new repository in 'Visual Studio Code' under the Explorer Tab. These are the files you will amend to customise the website for your needs.</li>
 </ol>
+
+## Altering the Repository in Visual Studio Code
 
 Now you have a repository stored on your local device which you can alter. When you are happy with the changes they can be merged back to your GitHub respository. For now we can amend them locally. 
 
@@ -61,15 +66,25 @@ Now make your first change to the repository within Visual Studio Code. Create a
 </li>
 <p></p>
 <li>
-Now when you go on the locally hosted site you will see your changes have taken effect. 
+Now when you go on the locally hosted site you will see your changes have taken effect. You should see all the posts have dissapeared.  
 </li>
 </ol>
 
-Finally, lets push the changes you made to github. Select the source control area in VS Code which is indicated by the image shown below. You should see the number of changes you made are in a blue number. In that section you can review and changes made before commiting them. Enter a message that describes the changes you made and then whatever prompt the input box showed before you started typing (cmd+enter on mac). You should see the bottom left of VS Code show a symbol with a 1 in. 
+## Pushing Changes to the Repository in Github
+
+Finally, lets push the changes you made to github. Be aware that this will make the changes visible to the general public who will be able to see the Github repository. 
+
+Select the source control area in VS Code which is indicated by the image shown below. You should see the number of changes you made are in a blue number. In that section you can review and changes made before commiting them. Enter a message that describes the changes you made and then whatever prompt the input box showed before you started typing (cmd+enter on mac).
 
 <img src="/post_images/github_vscode.png">
 
-Your changes should now be pushed to the main github repository. Now you can view your `USERNAME.github.io` link which is publically accesible. You should see the changes you have made are now freely visible. 
+You should see the bottom left of VS Code show a symbol with a 1 in and an up and down arrow. Select it and push all the changes into Github. Your changes should now be pushed to the main github repository.
+
+<img src="/post_images/push_changes_to_github.png">
+
+Now you can view your `USERNAME.github.io` link which is publically accesible. You should see the changes you have made are now freely visible to those using the web. 
+
+## Conclusion
 
 Hopefully you can see how we have created a free website which you can easily amend on your local device before pushing the changes out more widely to the world. 
 
